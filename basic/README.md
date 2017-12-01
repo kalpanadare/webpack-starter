@@ -5,9 +5,6 @@
 ```sh
 npm install webpack -g
 mkdir webpack-starter && cd webpack-starter
-```
-#### basic concept 
-```shell
 mkdir basic && cd basic
 touch app.js developers.js
 ```
