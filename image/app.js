@@ -1,1 +1,0 @@
-var developers = ['Kalpana', 'Pavithran'];
