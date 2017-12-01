@@ -16,6 +16,7 @@ mkdir app dist images
 cd app
 touch app.js
 ```
+Then find an png image  and add it into images folder
 ##### app.js 
 ```js
 import image from './../images/doc.png';
@@ -52,4 +53,5 @@ module.exports = {
 ```sh
 webpack
 ```
+now go and check in dist/images folder created and the given image added to this
 
