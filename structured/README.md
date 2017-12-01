@@ -6,7 +6,7 @@ mkdir structured && cd structured
 npm init
 npm install webpack --save-dev
 ```
-#### basic concept 
+#### base configuration
 ```shell
 touch webpack.config.js
 mkdir src bin 
@@ -24,6 +24,7 @@ developers = require('./developers.js')
 console.log(developers);
 ```
 ##### webpack.config.js
+Add the initial js in entry point, and specify output folder with filename
 ```js
 const path = require('path');
  module.exports = {
@@ -34,7 +35,8 @@ const path = require('path');
      }
  };
  ```
-#### When running webpack, you no need to specify basic files 
+#### Build
+Now build with webpack and run it with node
 ```sh
 webpack
 node bundle.js
